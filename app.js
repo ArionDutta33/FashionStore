@@ -14,16 +14,19 @@ t.from(".middle h1", {
     y: 100,
     opacity: 0,
     stagger: .2,
-    duration: .9
+    duration: .9,
+
 
 })
 t.from("#img1 img", {
 
-    x: 700,
+    x: 800,
+    transform: "scale(2)",
     duration: .9
 })
 t.from("#img2 img", {
 
     x: 700,
+    transform: "scale(2)",
     duration: .9
 })

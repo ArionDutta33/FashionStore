@@ -13,6 +13,7 @@ body {
     width: 100%;
     position: relative;
     background: rgb(253, 245, 85);
+    overflow: hidden;
 }
 
 .navbar {
