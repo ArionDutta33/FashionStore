@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    background: red;
+    padding: .9rem 2vw;
+    display: flex;
+    justify-content: space-between;
+    height: 4vw;
+}
+
+.nav-items {
+    width: 60%;
+    border: 2px solid white;
+    padding: .4vw .4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2vw;
+
+}
+
+.nav-items a {
+    color: white;
+}
+
+.logo {
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2vw;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.main {
+    display: flex;
+
+}
+
+.left {
+    height: calc(100vh - 4vw);
+    background: rgb(253, 245, 85);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.middle {
+    height: calc(100vh - 4vw);
+    background: rgb(88, 204, 243);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right {
+    height: calc(100vh - 4vw);
+    background: rgb(240, 81, 81);
+    flex: 1;
+    display: flex;
+    position: relative;
+
+}
+
+.middle h1 {
+    border: 1px solid red;
+    text-align: center;
+    padding: 2vw 2vw;
+    font-size: 6vw;
+    text-transform: uppercase;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+.model {
+    width: 60%;
+    height: 70%;
+    margin-right: 2vw;
+
+
+}
+
+.model img {
+    border-radius: .4vw;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.left h1 {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 7vw;
+    color: rgb(121, 174, 237);
+    margin-top: 10vw;
+}
+
+.left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1vw;
+    line-height: 1.9vw;
+    color: rgb(255, 45, 45);
+}
+
+.left button {
+    padding: .7vw 1vw;
+    font-size: .87vw;
+    background-color: rgb(115, 115, 245);
+    color: white;
+    border-radius: .4vw;
+}
+
+.left button:hover {
+
+    background-color: rgb(59, 59, 255);
+
+}
