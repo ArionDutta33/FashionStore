@@ -11,10 +11,11 @@
 body {
     min-height: 100vh;
     width: 100%;
+    position: relative;
+    background: rgb(253, 245, 85);
 }
 
 .navbar {
-    background: red;
     padding: .9rem 2vw;
     display: flex;
     justify-content: space-between;
@@ -23,17 +24,17 @@ body {
 
 .nav-items {
     width: 60%;
-    border: 2px solid white;
     padding: .4vw .4vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 1.2vw;
 
+
 }
 
 .nav-items a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .logo {
@@ -43,8 +44,7 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 2vw;
-    border: 1px solid white;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -55,40 +55,31 @@ body {
 
 .left {
     height: calc(100vh - 4vw);
-    background: rgb(253, 245, 85);
-    flex: 1;
+
     display: flex;
     flex-direction: column;
+    flex: 1;
     align-items: center;
     gap: 2vw;
 }
 
 .middle {
     height: calc(100vh - 4vw);
-    background: rgb(88, 204, 243);
-    flex: 1;
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex: 2;
     justify-content: center;
     flex-direction: column;
 }
 
-.right {
-    height: calc(100vh - 4vw);
-    background: rgb(240, 81, 81);
-    flex: 1;
-    display: flex;
-    position: relative;
 
-}
 
 .middle h1 {
-    border: 1px solid red;
     text-align: center;
     padding: 2vw 2vw;
     font-size: 6vw;
     text-transform: uppercase;
-
+    color: rgb(0, 0, 0);
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
@@ -142,3 +133,40 @@ body {
     background-color: rgb(59, 59, 255);
 
 }
+
+.model {
+    height: 28vw;
+    width: 16vw;
+
+
+}
+
+.model img {
+    border-radius: .8vw;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2vw;
+    border: 2px solid black;
+}
+
+#img1 {
+    position: absolute;
+    right: 12%;
+    top: 19%;
+}
+
+#img2 {
+    position: absolute;
+    right: 2%;
+    top: 38%;
+}
+
+/* .model img:nth-child(1) {
+    position: absolute;
+}
+
+.model img:nth-child(2) {
+    position: absolute;
+} */
